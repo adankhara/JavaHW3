@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2647d2-9586-4447-99a3-0da18d677723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AscendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AscendingOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertAnElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertAnElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheckVowelDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckVowelDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EqualityOf2Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EqualityOf2Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordsAndSpacesCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordsAndSpacesCount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,23 +26,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="38" />
+          <entry key="java" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="38" />
+          <entry key="JAVA" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="6367" />
+          <entry key="java" value="7221" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6367" />
+          <entry key="JAVA" value="7221" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -52,10 +51,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InsertAnElements.java">
+        <entry file="file://$PROJECT_DIR$/src/CheckVowelDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="250">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -89,6 +88,9 @@
         <option value="$PROJECT_DIR$/src/AscendingOrder.java" />
         <option value="$PROJECT_DIR$/src/PrimeNumber.java" />
         <option value="$PROJECT_DIR$/src/InsertAnElements.java" />
+        <option value="$PROJECT_DIR$/src/EqualityOf2Array.java" />
+        <option value="$PROJECT_DIR$/src/WordsAndSpacesCount.java" />
+        <option value="$PROJECT_DIR$/src/CheckVowelDigits.java" />
       </list>
     </option>
   </component>
@@ -123,7 +125,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543871162249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543875233388" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,9 +139,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertAnElements">
-    <configuration name="AscendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AscendingOrder" />
+  <component name="RunManager" selected="Application.CheckVowelDigits">
+    <configuration name="CheckVowelDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckVowelDigits" />
+      <module name="JavaHW3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EqualityOf2Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EqualityOf2Array" />
       <module name="JavaHW3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,13 +161,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OddEvenDigits" />
-      <module name="JavaHW3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeNumber" />
       <module name="JavaHW3" />
@@ -166,27 +168,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SumOfDigits" />
+    <configuration name="WordsAndSpacesCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordsAndSpacesCount" />
       <module name="JavaHW3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SumOfDigits" />
-      <item itemvalue="Application.OddEvenDigits" />
-      <item itemvalue="Application.AscendingOrder" />
       <item itemvalue="Application.PrimeNumber" />
       <item itemvalue="Application.InsertAnElements" />
+      <item itemvalue="Application.EqualityOf2Array" />
+      <item itemvalue="Application.WordsAndSpacesCount" />
+      <item itemvalue="Application.CheckVowelDigits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckVowelDigits" />
+        <item itemvalue="Application.WordsAndSpacesCount" />
+        <item itemvalue="Application.EqualityOf2Array" />
         <item itemvalue="Application.InsertAnElements" />
         <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.AscendingOrder" />
-        <item itemvalue="Application.OddEvenDigits" />
-        <item itemvalue="Application.SumOfDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +209,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,7 +218,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -266,6 +268,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/WordsAndSpacesCount.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -274,31 +288,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordsAndSpacesCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EqualityOf2Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TotalNumberOfA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CheckVowelDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -414,8 +407,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InsertAnElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="311">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EqualityOf2Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordsAndSpacesCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CheckVowelDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
