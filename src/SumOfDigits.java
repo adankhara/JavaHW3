@@ -10,6 +10,11 @@ public class SumOfDigits {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter any 5 digits number:");
         int i = scanner.nextInt();
+        if (i<=9999 || i>=99999){
+            System.err.println("Invalid Entry...!!!");
+            return;
+        }
+
 
         int sum =0;
         while (i!=0){

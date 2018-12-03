@@ -9,6 +9,10 @@ public class SumOfFirstAndLastNumbers {
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter 5 digit number:");
         int i = scanner.nextInt();
+        if (i<=9999 || i>=99999){
+            System.err.println("Invalid Entry...!!!");
+            return; }
+
 
         int first=0;
         int last =i%10;
