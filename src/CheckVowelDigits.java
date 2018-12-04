@@ -7,8 +7,8 @@ public class CheckVowelDigits {
         System.out.println("Enter a string:");
         String s = scanner.next();
 
-        float percentage = 100 * checkDigits(s)/countTotal(s);
-        float percentage1 = 100*checkVowels(s)/countTotal(s);
+        float percentage = 100 * checkDigits(s)/s.length();
+        float percentage1 = 100*checkVowels(s)/s.length();
         System.out.printf("Number of digits: %2s, (%5f)\n", checkDigits(s), percentage);
         System.out.printf("Number of vowels: %2s, (%5f)", checkVowels(s), percentage1);
     }
@@ -42,17 +42,5 @@ public class CheckVowelDigits {
 
         return countDigit;
     }
-    private static float countTotal(String input)
-    {
-        int totalCount=0;
-        for (int i=0; i<input.length();i++){
-            char total = input.charAt(i);
-            totalCount++;
-        }
-
-        return totalCount;
-    }
-
-
 
 }
