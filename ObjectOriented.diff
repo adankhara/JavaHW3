@@ -1,0 +1,104 @@
+diff --git a/src/CheckVowelDigits.java b/src/CheckVowelDigits.java
+index 1a457aa..0bebab2 100644
+--- a/src/CheckVowelDigits.java
++++ b/src/CheckVowelDigits.java
+@@ -1,46 +1,39 @@
+-import java.util.Scanner;
+-
+ public class CheckVowelDigits {
+-    public static void main(String[] args)
+-    {
+-        Scanner scanner = new Scanner(System.in);
+-        System.out.println("Enter a string:");
+-        String s = scanner.next();
+-
+-        float percentage = 100 * checkDigits(s)/s.length();
+-        float percentage1 = 100*checkVowels(s)/s.length();
+-        System.out.printf("Number of digits: %2s, (%5f)\n", checkDigits(s), percentage);
+-        System.out.printf("Number of vowels: %2s, (%5f)", checkVowels(s), percentage1);
+-    }
+-    private static float checkVowels(String input)
+-    {
+-      int countVowel = 0;
++    int digits;
++    int vowels;
++    float digitPercentage;
++    float vowelPercentage;
+ 
+-      for (int i=0;i<input.length();i++)
+-      {
+-          char vowel = input.charAt(i);
+-          if (vowel=='a'|| vowel=='A' || vowel=='e' || vowel=='E' || vowel=='i' || vowel=='I' || vowel=='o' || vowel=='O' || vowel=='u' || vowel=='U')
+-          {
+-              countVowel++;
+-          }
+-      }
++    public CheckVowelDigits(){}
+ 
+-      return countVowel;
+-    }
+-    private static float checkDigits(String input)
+-    {
+-        int countDigit = 0;
+-
+-        for (int i=0;i<input.length();i++)
+-        {
+-            char digit = input.charAt(i);
+-            if (digit>='0' && digit<='9')
+-            {
+-                countDigit++;
++    public void calculate(String input) {
++        if (input.length() == 0) {
++            return;
++        }
++        for (int i = 0; i < input.length(); i++) {
++            char c = input.charAt(i);
++            if (isVowel(c)) {
++                vowels++;
++            } else if (isDigit(c)) {
++                digits++;
+             }
+         }
++        vowelPercentage = vowels * 100.0f / input.length();
++        digitPercentage = digits * 100.0f / input.length();
++    }
+ 
+-        return countDigit;
++    private boolean isVowel(char vowel) {
++        if (vowel == 'a' || vowel == 'A' || vowel == 'e' || vowel == 'E' || vowel == 'i' || vowel == 'I' || vowel == 'o' || vowel == 'O' || vowel == 'u' || vowel == 'U') {
++            return true;
++        }
++        return false;
+     }
+ 
++    private boolean isDigit(char digit) {
++        if (digit >= '0' && digit <= '9') {
++            return true;
++        }
++        return false;
++    }
+ }
++
+diff --git a/src/VowelDigitRunner.java b/src/VowelDigitRunner.java
+new file mode 100644
+index 0000000..42bf286
+--- /dev/null
++++ b/src/VowelDigitRunner.java
+@@ -0,0 +1,17 @@
++import java.util.Scanner;
++
++public class VowelDigitRunner
++{
++    public static void main(String[] args)
++    {
++        Scanner scanner = new Scanner(System.in);
++        System.out.println("Enter a string:");
++        String s = scanner.next();
++
++        CheckVowelDigits cwd = new CheckVowelDigits();
++        cwd.calculate(s);
++
++        System.out.printf("Number of digits: %2d, (%5f)\n", cwd.digits, cwd.digitPercentage);
++        System.out.printf("Number of vowels: %2d, (%5f)", cwd.vowels, cwd.vowelPercentage);
++    }
++}
