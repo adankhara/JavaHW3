@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a2647d2-9586-4447-99a3-0da18d677723" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHW3/CheckVowelDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHW3/CheckVowelDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHW3/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHW3/MultiplicationTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHW3/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHW3/PalindromeNumber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CheckVowelDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheckVowelDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EqualityOf2Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EqualityOf2Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordsAndSpacesCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordsAndSpacesCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,32 +22,33 @@
     <session id="2051498004">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="41" />
+          <entry key="java" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="7221" />
+          <entry key="java" value="8971" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7221" />
+          <entry key="JAVA" value="8971" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -51,10 +57,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/CheckVowelDigits.java">
+        <entry file="file://$PROJECT_DIR$/src/ReverseString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PrimeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ReverseNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -82,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/CommomElements.java" />
         <option value="$PROJECT_DIR$/src/CommonElements.java" />
         <option value="$PROJECT_DIR$/src/SumOfFirstAndLastNumbers.java" />
-        <option value="$PROJECT_DIR$/src/ReverseNumber.java" />
         <option value="$PROJECT_DIR$/src/SumOfDigits.java" />
         <option value="$PROJECT_DIR$/src/OddEvenDigits.java" />
         <option value="$PROJECT_DIR$/src/AscendingOrder.java" />
@@ -90,7 +113,11 @@
         <option value="$PROJECT_DIR$/src/InsertAnElements.java" />
         <option value="$PROJECT_DIR$/src/EqualityOf2Array.java" />
         <option value="$PROJECT_DIR$/src/WordsAndSpacesCount.java" />
+        <option value="$PROJECT_DIR$/src/MultiplicationTable.java" />
         <option value="$PROJECT_DIR$/src/CheckVowelDigits.java" />
+        <option value="$PROJECT_DIR$/src/PalindromeNumber.java" />
+        <option value="$PROJECT_DIR$/src/ReverseNumber.java" />
+        <option value="$PROJECT_DIR$/src/ReverseString.java" />
       </list>
     </option>
   </component>
@@ -104,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,12 +148,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543875233388" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543924312837" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CheckVowelDigits">
+  <component name="RunManager" selected="Application.ReverseString">
     <configuration name="CheckVowelDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckVowelDigits" />
       <module name="JavaHW3" />
@@ -147,48 +174,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualityOf2Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EqualityOf2Array" />
+    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiplicationTable" />
       <module name="JavaHW3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertAnElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertAnElements" />
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PalindromeNumber" />
       <module name="JavaHW3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimeNumber" />
+    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseNumber" />
       <module name="JavaHW3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordsAndSpacesCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordsAndSpacesCount" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReverseString" />
       <module name="JavaHW3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrimeNumber" />
-      <item itemvalue="Application.InsertAnElements" />
-      <item itemvalue="Application.EqualityOf2Array" />
-      <item itemvalue="Application.WordsAndSpacesCount" />
       <item itemvalue="Application.CheckVowelDigits" />
+      <item itemvalue="Application.MultiplicationTable" />
+      <item itemvalue="Application.PalindromeNumber" />
+      <item itemvalue="Application.ReverseNumber" />
+      <item itemvalue="Application.ReverseString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.PalindromeNumber" />
+        <item itemvalue="Application.ReverseNumber" />
         <item itemvalue="Application.CheckVowelDigits" />
-        <item itemvalue="Application.WordsAndSpacesCount" />
-        <item itemvalue="Application.EqualityOf2Array" />
-        <item itemvalue="Application.InsertAnElements" />
-        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.MultiplicationTable" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +236,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -218,7 +245,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,10 +299,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/WordsAndSpacesCount.java</url>
-          <line>11</line>
+          <url>file://$PROJECT_DIR$/src/ReverseString.java</url>
+          <line>4</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -292,27 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MultiplicationTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PalindromeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -341,13 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ReverseNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -398,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrimeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InsertAnElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -419,17 +411,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordsAndSpacesCount.java">
+    <entry file="file://$PROJECT_DIR$/src/MultiplicationTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="275">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CheckVowelDigits.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordsAndSpacesCount.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PalindromeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
