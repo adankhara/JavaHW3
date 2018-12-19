@@ -5,6 +5,7 @@ public class WordsAndSpacesCount {
     {
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
+        System.out.println("Please enter a string:");
         int numberOfWords = getNumberOfWords(s);
         System.out.printf("Number of words in string are :%d and spaces :%d", numberOfWords, numberOfWords-1);
     }

@@ -3,6 +3,7 @@ import javafx.scene.transform.Scale;
 import java.util.Scanner;
 
 public class ArmstrongNumber {
+
     public static void main(String[] args) {
         findArmstrongNumber();
     }
@@ -13,7 +14,7 @@ public class ArmstrongNumber {
         int j = 0;
         int num,temp;
         temp=i;
-        while (i != 0) {
+       while (i != 0) {
             num = i % 10;
             j += num * num * num;
             i = i / 10;
